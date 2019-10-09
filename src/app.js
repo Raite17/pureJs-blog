@@ -1,1 +1,3 @@
-console.log('started');
+async function app() {
+    await fetch('fmqio');
+}

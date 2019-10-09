@@ -1,7 +1,7 @@
 const HTMLPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: ['./src/app.js'],
+    entry: ['@babel/polyfill', './src/app.js'],
     output: {
         path: __dirname + '/dist',
         filename: 'bundle.js'
@@ -17,5 +17,10 @@ module.exports = {
     ],
     resolve: {
         extensions: ['.js']
+    },
+    module: {
+        rules: [
+            { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' }
+        ]
     }
 }

@@ -1,0 +1,24 @@
+{
+  "name": "purejs-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raite17/pureJs-blog.git"
+  },
+  "keywords": [
+    "js",
+    "blog",
+    "javascript"
+  ],
+  "author": "Raite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raite17/pureJs-blog/issues"
+  },
+  "homepage": "https://github.com/Raite17/pureJs-blog#readme"
+}
